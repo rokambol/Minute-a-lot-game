@@ -11,15 +11,12 @@
 <body>
    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">WELCOME  {{ session['username'] }} </a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Please login </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('login') }}">Log in</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('rules') }}">Rules</a>
             </li>
@@ -32,9 +29,6 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('welcome') }}">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('logout') }}">logout</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -44,36 +38,25 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              
-                <h1 class="primary">Congratulations You finish the game!</h1> 
-            </h1>
-             
-            <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-      <table class="table table-dark">
-        <thead>
-            <tr>
-                <th scope="col">Username</th>
-                <th scope="col">Score</th>
-            </tr>
-        </thead>
-        <tbody>
-           {% for key, value in userScore.iteritems() %}
-            <tr>
-            <td>{{ key }}</td>
-            <td>{{ value }}</td>
-            </tr>
-        </tbody>
-         {% endfor %}
-      </table>
-     
-          </div>
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+
+<form class="form-singin" method="POST" action="/login">
+    <h2 class ="form-singin-heading">Please sing-in</h2>
+    {{ form.hidden_tag() }}
+    {{ wtf.form_field(form.username) }}
+    {{ form.csrf_token }}
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sing in</button>
+</form>
+</div>
+{% endblock %}
+</div>
         </div>
-      <a class="btn btn-primary my-5 btn-xl js-scroll-trigger" href="{{ url_for('index') }}">TRY AGAIN</a>
       </div>
-       
     </header>
+</body>
  <!-- Bootstrap core JavaScript -->
     <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -85,6 +68,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
+  
 </body>
 
 </html>

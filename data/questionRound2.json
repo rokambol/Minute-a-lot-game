@@ -1,0 +1,452 @@
+[
+  {
+    "id": "1",
+    "question": "The Plaka is the oldest quarter of which city?",
+    "A": "Athens",
+    "B": "Prague",
+    "C": "Rome",
+    "D": "Vienna",
+    "answer": "Athens"
+  },
+  {
+    "id": "2",
+    "question": "What is an axolotl?",
+    "A": "A nerve in the brain",
+    "B": "A multi-axled vehicle",
+    "C": "A type of mortice lock",
+    "D": "A species of salamander",
+    "answer": "A species of salamander"
+  },
+  {
+    "id": "3",
+    "question": "The Panama Canal was officially opened by which US president?",
+    "A": "Calvin Coolidge",
+    "B": "Herbert Hoover",
+    "C": "Theodore Roosevelt",
+    "D": "Woodrow Wilson",
+    "answer": "Woodrow Wilson"
+  },
+  {
+    "id": "4",
+    "question": "In which opera did Maria Callas make her last appearance at Covent Garden?",
+    "A": "Carmen",
+    "B": "Tosca",
+    "C": "Madame Butterfly",
+    "D": "La Boheme",
+    "answer": "Tosca"
+  },
+  {
+    "id": "5",
+    "question": "After Adam, Eve, Cain and Abel who is the next person mentioned in the Bible?",
+    "A": "Enoch",
+    "B": "Jubal",
+    "C": "Lamech",
+    "D": "Zillah",
+    "answer": "Enoch"
+  },
+  {
+    "id": "6",
+    "question": "What is a kudzu?",
+    "A": "Antelope",
+    "B": "Bird",
+    "C": "Jewish settlement",
+    "D": "Climbing plant",
+    "answer": "Antelope"
+  },
+  {
+    "id": "7",
+    "question": "Outlawed from 1603 to 1774, which Scottish clan was known as the ‘Faceless Clan’?",
+    "A": "Campbell",
+    "B": "MacGregor",
+    "C": "MacLeod",
+    "D": "MacDonald",
+    "answer": "MacGregor"
+  },
+  {
+    "id": "8",
+    "question": "From which country does tennis player Andres Gomez, winner of the 1990 French Championships, come?",
+    "A": "Ecuador",
+    "B": "Peru",
+    "C": "Portugal",
+    "D": "Spain",
+    "answer": "Ecuador"
+  },
+  {
+    "id": "9",
+    "question": "Which US city is located on the Maumee River at Lake Erie?",
+    "A": "Detroit",
+    "B": "Toledo",
+    "C": "Cleveland",
+    "D": "Buffalo",
+    "answer": "Toledo"
+  },
+  {
+    "id": "10",
+    "question": "Lisbon stands at the mouth of which river?",
+    "A": "Seine",
+    "B": "Duoro",
+    "C": "Rio Grande",
+    "D": "Tagus",
+    "answer": "Tagus"
+  },
+  {
+    "id": "11",
+    "question": "What is the longest river in France?",
+    "A": "Loire",
+    "B": "Seine",
+    "C": "Rhone",
+    "D": "Gironde",
+    "answer": "Loire"
+  },
+  {
+    "id": "12",
+    "question": "In which Australian state is Darwin?",
+    "A": "Queensland",
+    "B": "Western Australia",
+    "C": "Northern Territory",
+    "D": "Tasmania",
+    "answer": "Northern Territory"
+  },
+  {
+    "id": "13",
+    "question": "Apart from Rome, how many cities in Italy have a population of over one million?",
+    "A": "Three",
+    "B": "Two",
+    "C": "One",
+    "D": "Four",
+    "answer": "Three"
+  },
+  {
+    "id": "14",
+    "question": "What in America is the Palmetto state?",
+    "A": "Florida",
+    "B": "Louisiana",
+    "C": "Alabama",
+    "D": "South Carolina",
+    "answer": "South Carolina"
+  },
+  {
+    "id": "15",
+    "question": "In which ocean is Madagascar?",
+    "A": "Atlantic",
+    "B": "Pacific",
+    "C": "Indian",
+    "D": "Arctic",
+    "answer": "Indian"
+  },
+  {
+    "id": "16",
+    "question": "In which US city is the Sears Tower?",
+    "A": "Boston",
+    "B": "Chicago",
+    "C": "St. Louis",
+    "D": "San Francisco",
+    "answer": "Chicago"
+  },
+  {
+    "id": "17",
+    "question": "Galena is an ore of which metal?",
+    "A": "Copper",
+    "B": "Lead",
+    "C": "Zinc",
+    "D": "Iron",
+    "answer": "Lead"
+  },
+  {
+    "id": "18",
+    "question": "Which sign of the zodiac comes between Leo and Libra?",
+    "A": "Virgo",
+    "B": "Taurus",
+    "C": "Aries",
+    "D": "Capricorn",
+    "answer": "Virgo"
+  },
+  {
+    "id": "19",
+    "question": "Which planet is said to influence the way we communicate?",
+    "A": "Venus",
+    "B": "Mercury",
+    "C": "Mars",
+    "D": "Saturn",
+    "answer": "Mercury"
+  },
+  {
+    "id": "20",
+    "question": "Are you a fire, air, water or earth sign if you were born under Aquarius?",
+    "A": "Fire",
+    "B": "Water",
+    "C": "Air",
+    "D": "Earth",
+    "answer": "Air"
+  },
+  {
+    "id": "21",
+    "question": "Which star sign is the first sign of the zodiac?",
+    "A": "Pisces",
+    "B": "Capricorn",
+    "C": "Taurus",
+    "D": "Aries",
+    "answer": "Aries"
+  },
+  {
+    "id": "22",
+    "question": "If you were born on New Year’s Day, which is your astrological sign?",
+    "A": "Aries",
+    "B": "Cancer",
+    "C": "Capricorn",
+    "D": "Leo",
+    "answer": "Capricorn"
+  },
+  {
+    "id": "23",
+    "question": "What is the ruling planet of Scorpio?",
+    "A": "Pluto",
+    "B": "Venus",
+    "C": "Earth",
+    "D": "Saturn",
+    "answer": "Pluto"
+  },
+  {
+    "id": "24",
+    "question": "Pisces and Scorpio are two of the water signs, name the third.",
+    "A": "Aquarius",
+    "B": "Sagittarius",
+    "C": "Cancer",
+    "D": "Leo",
+    "answer": "Cancer"
+  },
+  {
+    "id": "25",
+    "question": "At which sport in the 1960s did Peggy Fleming become a household name?",
+    "A": "Equestrian",
+    "B": "Tennis",
+    "C": "Sprinting",
+    "D": "Figure skating",
+    "answer": "Figure skating"
+  },
+  {
+    "id": "26",
+    "question": "Who revolutionised high jumping when he used his flop technique to win an Olympic gold medal in Mexico in 1968?",
+    "A": "Dick Fosbury",
+    "B": "Mick Cadbury",
+    "C": "Nick Fosdyke",
+    "D": "Vic Foster",
+    "answer": "Dick Fosbury"
+  },
+  {
+    "id": "27",
+    "question": "What nationality was tennis player John Newcombe?",
+    "A": "British",
+    "B": "Canadian",
+    "C": "Irish",
+    "D": "Australian",
+    "answer": "Australian"
+  },
+  {
+    "id": "28",
+    "question": "About which golfer did the great Bobby Jones remark : “He is playing an entirely different game – a game I’m not even familiar with.” ?",
+    "A": "Gary Player",
+    "B": "Tiger Woods",
+    "C": "Jack Nicklaus",
+    "D": "Peter Allis",
+    "answer": "Jack Nicklaus"
+  },
+  {
+    "id": "29",
+    "question": "Which tennis player, famous for her two-handed backhand and baseline-dominated play was nicknamed ‘The Ice Maiden’?",
+    "A": "Steffi Graf",
+    "B": "Chris Evert",
+    "C": "Evonne Cawley",
+    "D": "Kim Clijsters",
+    "answer": "Chris Evert"
+  },
+  {
+    "id": "30",
+    "question": "Who was the Argentinian racing driver ( 1911 – 1995 ) who won five world championships and was team leader of Mercedes-Benz, Alfa Romeo, Ferrari and Maserati?",
+    "A": "Juan Manuel Fangio",
+    "B": "Alberto Ascari",
+    "C": "Giuseppe Farina",
+    "D": "Jose Gonzales",
+    "answer": "Juan Manuel Fangio"
+  },
+  {
+    "id": "31",
+    "question": "Which Italian jockey rode his first winner Lizzy Hare, at Goodwood in 1987?",
+    "A": "Giovanni Forte",
+    "B": "Diego Dettori",
+    "C": "Uto Viaggi",
+    "D": "Frankie Dettori",
+    "answer": "Frankie"
+  },
+  {
+    "id": "32",
+    "question": "With which baseball team did Jose DiMaggio achieve icon status in the 1940s?",
+    "A": "Chicago Bears",
+    "B": "New York Yankees",
+    "C": "Baltimore Batters",
+    "D": "Cleveland Steelers",
+    "answer": "New York Yankees"
+  },
+  {
+    "id": "33",
+    "question": "What type of cheese is Stilton?",
+    "A": "Blue",
+    "B": "Green",
+    "C": "Hard",
+    "D": "Mouldy",
+    "answer": "Blue"
+  },
+  {
+    "id": "34",
+    "question": "What do you add to milk to make porridge?",
+    "A": "Cruel",
+    "B": "Oats",
+    "C": "Sugar",
+    "D": "Whisky",
+    "answer": "Oats"
+  },
+  {
+    "id": "35",
+    "question": "What is minestrone?",
+    "A": "Cheese",
+    "B": "Noodles",
+    "C": "A type of potato",
+    "D": "Soup",
+    "answer": "Soup"
+  },
+  {
+    "id": "36",
+    "question": "What is bottled tomato sauce called?",
+    "A": "Brown sauce",
+    "B": "HP sauce",
+    "C": "Ketchup",
+    "D": "Piccalilli",
+    "answer": "Ketchup"
+  },
+  {
+    "id": "37",
+    "question": "What colour is gin?",
+    "A": "Colourless",
+    "B": "Blue",
+    "C": "Green",
+    "D": "Yellow",
+    "answer": "Colourless"
+  },
+  {
+    "id": "38",
+    "question": "Which fruit is covered with toffee at a fairground?",
+    "A": "Banana",
+    "B": "Apple",
+    "C": "Carrot",
+    "D": "Pear",
+    "answer": "Apple"
+  },
+  {
+    "id": "39",
+    "question": "Which nuts are used to make marzipan?",
+    "A": "Almonds",
+    "B": "Chestnuts",
+    "C": "Hazelnuts",
+    "D": "Walnuts",
+    "answer": "Almonds"
+  },
+  {
+    "id": "40",
+    "question": "What meat dish is Cumberland famous for?",
+    "A": "Bacon",
+    "B": "Deep-fried Mars Bars",
+    "C": "Ribs",
+    "D": "Sausage",
+    "answer": "Sausage"
+  },
+  {
+    "id": "41",
+    "question": "Which British monarch succeeded Queen Victoria?",
+    "A": "Elizabeth II",
+    "B": "Edward VI",
+    "C": "Edward VII",
+    "D": "George VII",
+    "answer": "Edward VII"
+  },
+  {
+    "id": "42",
+    "question": "Richard III died at which battle?",
+    "A": "Bosworth Field",
+    "B": "Barnet",
+    "C": "Hastings",
+    "D": "York",
+    "answer": "Bosworth Field"
+  },
+  {
+    "id": "43",
+    "question": "Who was the last viceroy of India?",
+    "A": "Clive",
+    "B": "George VI",
+    "C": "Prince Louis of Battenburg",
+    "D": "Lord Louis Mountbatten",
+    "answer": "Lord Louis Mountbatten"
+  },
+  {
+    "id": "44",
+    "question": "Which English monarch married Eleanor of Aquitaine?",
+    "A": "Henry II",
+    "B": "Henry IV",
+    "C": "Henry VI",
+    "D": "Henry VIII",
+    "answer": "Henry II"
+  },
+  {
+    "id": "45",
+    "question": "Who was the last wife of Henry VIII?",
+    "A": "Anne of Cleves",
+    "B": "Catherine of Aragon",
+    "C": "Catherine Howard",
+    "D": "Catherine Parr",
+    "answer": "Catherine Parr"
+  },
+  {
+    "id": "46",
+    "question": "Which country did Britain fight in the War of Jenkins’ Ear?",
+    "A": "France",
+    "B": "Ireland",
+    "C": "Spain",
+    "D": "Wales",
+    "answer": "Spain"
+  },
+  {
+    "id": "47",
+    "question": "Which King George did Prince Regent become?",
+    "A": "George IV",
+    "B": "George III",
+    "C": "George II",
+    "D": "George I",
+    "answer": "George IV"
+  },
+  {
+    "id": "48",
+    "question": "At the Siege of Mafeking, who led the British forces?",
+    "A": "Robert Baden-Powell",
+    "B": "Colonel B. T. Mahon",
+    "C": "Fieldmarshal Bernard Montgomery",
+    "D": "Louis Mountbatten",
+    "answer": "Robert Baden-Powell"
+  },
+  {
+    "id": "49",
+    "question": "The House of Lancaster kings were all called what?",
+    "A": "Charles",
+    "B": "Edward",
+    "C": "George",
+    "D": "Henry",
+    "answer": "Henry"
+  },
+  {
+    "id": "50",
+    "question": "Apart from Mad George, which kinder nickname did George III have?",
+    "A": "Big George",
+    "B": "Farmer Giles",
+    "C": "Farmer George",
+    "D": "Happy George",
+    "answer": "Farmer George"
+  }
+]

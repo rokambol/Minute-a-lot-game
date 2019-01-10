@@ -1,0 +1,402 @@
+[
+{
+"id":"1",
+"question":"Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop ____________.’ Fill in the blank to complete this quotation by Albert Einstein.",
+"A": "Wishing",
+"B": "Questioning",
+"C": "Thinking",
+"answer": "Questioning"
+},
+{
+"id":"2",
+"question":"The name of which spice comes from the French word for ‘nail’?",
+"A": "Cinnamon",
+"B": "Cardamom",
+"C": "Clove",
+"answer": "Clove" 
+},
+{
+"id":"3",
+"question":"In India, the train Lifeline Express is a…",
+"A": "Hospital",
+"B": "Bank",
+"C": "Primary School",
+"answer": "Hospital"
+},
+{
+"id":"4",
+"question":"Which Asian mountain is also known as the Savage Mountain due to the extreme difficulty of ascent?",
+"A": "Kanchenjunga",
+"B": "K2",
+"C": "Lhotse",
+"answer": "K2"
+},
+{
+"id":"5",
+"question":"In 1964, which portfolio was given to Indira Gandhi in the government of Lal Bahadur Shastri?",
+"A": " Defence ",
+"B": "Home",
+"C": "Information and Broadcasting",
+"answer": "Information and Broadcasting"
+},
+{
+"id":"6",
+"question":"In Alice’s Adventures in Wonderland, which game was played by the Queen of Hearts using hedgehogs as balls?",
+"A": "Quintet",
+"B": "Quidditch",
+"C": "Croquet",
+"answer": "Croquet"
+},
+{
+"id":"7",
+"question":"With which unfortunate incident would you associate the warplane Enola Gay?",
+"A": "Sinking of the ship Bismark",
+"B": "The Hiroshima bombing",
+"C": "Storming of Bastille",
+"answer": "The Hiroshima bombing"
+},
+{
+"id":"8",
+"question":"Odhra Magadha is the precursor to which Indian dance form?",
+"A": "Kuchipudi",
+"B": "Kathak",
+"C": " Odissi",
+"answer": "Odissi"
+},
+{
+"id":"9",
+"question":"Who composed music for the 1969 film Goopy Gyne Bagha Byne?",
+"A": "Satyajit Ray",
+"B": "Ravi Shankar",
+"C": "Shiv-Hari",
+"answer": "Satyajit Ray"
+},
+{
+"id":"10",
+"question":"Where in the human body is the stapedius muscle situated?",
+"A": "Nose",
+"B": "Ears",
+"C": "Leg",
+"answer": "Ears"
+},
+{
+"id":"11",
+"question":"Apart from Venus, which planet rotates from east to west?",
+"A": "Jupiter",
+"B": "Mars",
+"C": "Uranus",
+"answer": "Uranus"
+},
+{
+"id":"12",
+"question":"Which country was Herodotus referring to when he said: ‘There is no country that possesses so many wonders, nor any, that such a number of works that defy description’?",
+"A": "China",
+"B": "Germany",
+"C": "Egypt",
+"answer": "Egypt"
+},
+{
+"id":"13",
+"question":"Which famous world leader was accused at the Rivonia Trial?",
+"A": "Martin Luther King",
+"B": "Subhas Chandra Bose",
+"C": "Nelson Mandela",
+"answer": "Nelson Mandela"
+},
+{
+"id":"14",
+"question":"In Hindu mythology, who has a mansion named Vaijayanta and a sword named Paranjaya?",
+"A": " Vishnu",
+"B": "Shiva",
+"C": "Indra",
+"answer": "Indra"
+},
+{
+"id":"15",
+"question":"What is parasol a kind of?",
+"A": "Umbrella",
+"B": "Footwear",
+"C": "Bracelet",
+"answer": "Umbrella"
+},
+{
+"id":"16",
+"question":"What was the pen name of William Sydney Porter?",
+"A": "Mark Twain",
+"B": "Oscar Wilde",
+"C": "O’ Henry",
+"answer": "O’ Henry"
+},
+{
+"id":"17",
+"question":"Which spice consists of the seed of the Myristica fragrans, a tropical evergreen tree?",
+"A": " Cardamom",
+"B": "Clove",
+"C": "Nutmeg",
+"answer": "Nutmeg"
+},
+{
+"id":"18",
+"question":"Which leader wrote the Srimad Bhagavad Gita Rahasya while he was jailed in Myanmar?",
+"A": " Bal Gangadhar Tilak",
+"B": "Motilal Nehru",
+"C": "Gopal Krishna Gokhale",
+"answer": "Bal Gangadhar Tilak"
+},
+{
+"id":"19",
+"question":"Who was born in Gwalior in 1945 to Haafiz Ali Khan?",
+"A": "Amjad Ali Khan",
+"B": "Bismillah Khan",
+"C": "Ali Akbar Khan",
+"answer": "Amjad Ali Khan"
+},
+{
+"id":"20",
+"question":"Which is the largest internal organ in the human body?",
+"A": "Liver",
+"B": "Heart",
+"C": "Lung",
+"answer": "Liver"
+},
+{
+"id":"21",
+"question":"After whom is the chemical element with atomic number 102 named?",
+"A": "Albert Einstein",
+"B": "Alfred Bernhard Nobel",
+"C": "Isaac Newton",
+"answer": "Alfred Bernhard Nobel"
+},
+{
+"id":"22",
+"question":"In the Mahabharata, who was granted a divine inward eye so that he could see and relate the events of the battlefield to Dhritarashtra?",
+"A": "Sanjaya",
+"B": "Purochana",
+"C": "Shikhandi",
+"answer": "Sanjaya"
+},
+{
+"id":"23",
+"question":"The capital of which Scandinavian country is located on the islands of Zealand and Amager?",
+"A": " Norway",
+"B": "Sweden",
+"C": "Denmark",
+"answer": "Denmark"
+},
+{
+"id":"24",
+"question":"Complete this Sunderlal Bahuguna phrase which he coined during the Chipko Movement: ‘Ecology is permanent _____.’",
+"A": "Economy",
+"B": "Sociology",
+"C": "Biology",
+"answer": "Economy"
+},
+{
+"id":"25",
+"question":"By what name is K’ung Fu-tzu better known to the Western world?",
+"A": "Confucius",
+"B": "Lao Tzu",
+"C": "Fa-Hien",
+"answer": "Confucius"
+},
+{
+"id":"26",
+"question":"Which spice was introduced to India around 1800 CE by the East India Company in its spice garden in Courtallam, Tamil Nadu?",
+"A": "Clove",
+"B": "Pepper",
+"C": "Cardamom",
+"answer": "Clove"
+},
+{
+"id":"27",
+"question":"In Twenty Thousand Leagues Under the Sea, what was the name of the warship in which Captain Nemo sailed?",
+"A": "Basillus",
+"B": "Nautilus",
+"C": "Remolus",
+"answer": "Nautilus"
+},
+{
+"id":"28",
+"question":"Bidriware derives its name from the town of Bidar. In which state is Bidar located?",
+"A": "Karnataka",
+"B": "Kerala",
+"C": "Gujarat",
+"answer": "Karnataka"
+},
+{
+"id":"29",
+"question":"In India, who heads the Department of Space?",
+"A": "The president",
+"B": "The prime minister",
+"C": "The defence minister",
+"answer": "The prime minister"
+},
+{
+"id":"30",
+"question":"Which actor won the National Award in the Best Actor category for Dastak in 1971 and Koshish in 1973?",
+"A": "Dev Anand",
+"B": "Sanjeev Kumar",
+"C": "Dilip Kumar",
+"answer": "Sanjeev Kumar"
+},
+{
+"id":"31",
+"question":"Adams, Leverrier, Galle and Lassell are some of the rings of which planet?",
+"A": "Neptune",
+"B": "Saturn",
+"C": "Jupiter",
+"answer": "Neptune"
+},
+{
+"id":"32",
+"question":"In the Mahabharata, who among these was killed by Krishna?",
+"A": "Karna",
+"B": "Ekalavya",
+"C": "Jayadratha",
+"answer": "Ekalavya"
+},
+{
+"id":"33",
+"question":"Which famous philosopher was also the tutor of Alexander the Great?",
+"A": "Aristotle",
+"B": "Socrates",
+"C": "Rousseau",
+"answer": "Aristotle"
+},
+{
+"id":"34",
+"question":"What was defined as ‘three grains of barley, dry and round, placed end to end lengthwise’?",
+"A": "Centimetre",
+"B": "Millimetre",
+"C": "Inch",
+"answer": "Inch"
+},
+{
+"id":"35",
+"question":"The name of which of these means the ‘gilded one’ in Spanish?",
+"A": "El Dorado",
+"B": "Buenos Aires",
+"C": "El Nino",
+"answer": "El Dorado"
+},
+{
+"id":"36",
+"question":"Which 1852 book was smuggled into Russia in Yiddish to evade the czarist censor?",
+"A": "Uncle Tom’s Cabin",
+"B": "Alice in Wonderland",
+"C": "Das Kapital",
+"answer": "Uncle Tom’s Cabin"
+},
+{
+"id":"37",
+"question":"Who was the prime minister of the United Kingdom at the time of Queen Elizabeth II’s coronation?",
+"A": "Neville Chamberlain",
+"B": "Winston Churchill",
+"C": "Harold McMillan",
+"answer": "Winston Churchill"
+},
+{
+"id":"38",
+"question":"Tomato, sweet corn, oxtail, bird’s nest, chimney and French onion are all …",
+"A": "Types of soup",
+"B": "Breeds of cats",
+"C": "Sporting events",
+"answer": "Types of soup"
+},
+{
+"id":"39",
+"question":"Which work is often referred to as the fifth veda?",
+"A": "Panchtantra",
+"B": "Natyashastra",
+"C": "Arthshastra",
+"answer": "Natyashastra"
+},
+{
+"id":"40",
+"question":"Which Indi-pop singer was born Sujata, and was known for her hit ‘Made in India’?",
+"A": "Sunita Rao",
+"B": "Alisha Chinai",
+"C": "Pravati Khan",
+"answer": "Alisha Chinai"
+},
+{
+"id":"41",
+"question":"Which of these elements is not named after a scientist?",
+"A": "Einsteinium",
+"B": "Ruthenium",
+"C": "Curium",
+"answer": "Ruthenium"
+},
+{
+"id":"42",
+"question":"In which present-day country was the Battle of Waterloo fought?",
+"A": "France",
+"B": "Iran",
+"C": "Belgium",
+"answer": "Belgium"
+},
+{
+"id":"43",
+"question":"Which rakshasa took the form of a golden deer to lure Lakshmana away, leaving Sita unprotected?",
+"A": "Tadaka",
+"B": "Mareecha",
+"C": "Nikumbha",
+"answer": "Mareecha"
+},
+{
+"id":"44",
+"question":"In India, ‘Duty Unto Death’ is the motto of which organization?",
+"A": "Border Security Force",
+"B": "National Cadet Corps",
+"C": "Central Bureau of Investigation",
+"answer": "Border Security Force"
+},
+{
+"id":"45",
+"question":"Which country’s highest peak is Mount Ararat?",
+"A": "China",
+"B": "Turkey",
+"C": "Iran",
+"answer": "Turkey"
+},
+{
+"id":"46",
+"question":"What do you call a system of serving when a meal, consisting of several dishes is set out and guests serve themselves?",
+"A": "Buffet",
+"B": " A la carte",
+"C": "Menu",
+"answer": "Buffet"
+},
+{
+"id":"47",
+"question":"With which artist would you associate The Thinker, a statue cast in bronze?",
+"A": "Auguste Rodin",
+"B": "Michelangelo",
+"C": "Leonardo da Vinci",
+"answer": "Auguste Rodin"
+},
+{
+"id":"48",
+"question":"Kisan Ghat in Delhi is the memorial ground of which famous leader?",
+"A": "Charan Singh",
+"B": "Rajiv Gandhi",
+"C": "Jagjivan Ram",
+"answer": "Charan Singh"
+},
+{
+"id":"49",
+"question":"Edward Lear was famous for his five-line humorous poems. What is the correct term for this style of poetry?",
+"A": "Elegy",
+"B": "Sonnet",
+"C": "Limerick",
+"answer": "Limerick"
+},
+{
+"id":"50",
+"question":"Which character did actor Leonard Nimoy portray in Star Trek V: The Final Frontier?",
+"A": "Spock",
+"B": "Kirk",
+"C": "McCoy",
+"answer": "Spock"
+}
+]

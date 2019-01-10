@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="60;url=/leaderboard"> 
     <link rel="stylesheet" href="{{url_for('static', filename='css/creative.min.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css" />
     <title>{{ page_title }}</title>
@@ -17,9 +18,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('login') }}">Log in</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('rules') }}">Rules</a>
             </li>
@@ -28,9 +26,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('welcome') }}">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('logout') }}">logout</a>
@@ -43,38 +38,42 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
+            <h2 class="text-uppercase">
               
-                <h1 class="primary">Congratulations You finish the game!</h1> 
-            </h1>
-             
+            
+         {% for asd in asd  %}
+              {% if loop.index0 <=0 %}
+                <h2 class="primary">{{ asd.Question }}</h2> 
+            </h2>
+            
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-      <table class="table table-dark">
-        <thead>
-            <tr>
-                <th scope="col">Username</th>
-                <th scope="col">Score</th>
-            </tr>
-        </thead>
-        <tbody>
-           {% for key, value in userScore.iteritems() %}
-            <tr>
-            <td>{{ key }}</td>
-            <td>{{ value }}</td>
-            </tr>
-        </tbody>
-         {% endfor %}
-      </table>
-     
+              
+              
+              
+<form method="post">
+  <div class="form-group">
+    <input class="d-none" type="hidden Submit" name="answer" id="answer" value="{{ asd.answer }}" />
+    {% filter lower %}
+    <label for="answer">YOUR ANSWER:</label>
+    <input type="text" class="form-control" id="answer1" name="player_answer" aria-describedby="text" placeholder="Enter your answer here">
+  </div>
+      <button type="submit"  name="player_answer" class="btn btn-primary">Submit</button>
+</form>     
+            {% endfilter %}
+            {% endif %}
+            {% endfor %}
+          
           </div>
         </div>
-      <a class="btn btn-primary my-5 btn-xl js-scroll-trigger" href="{{ url_for('index') }}">TRY AGAIN</a>
+      <a class="btn btn-primary my-5 btn-xl js-scroll-trigger" type="hidden Submit" name="answer" id="answer" href="{{ url_for('round3') }}">NEXT</a>
       </div>
-       
+       <a class="btn btn-primary my-5 btn-xl js-scroll-trigger"> your current score are {{ session['score'] }}</a>
     </header>
- <!-- Bootstrap core JavaScript -->
+
+    <!-- Bootstrap core JavaScript -->
+    
     <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
@@ -85,6 +84,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
+    <script type="text/javascript">
+     function postData() {
+  $('#answer1').on('click', function(){
+         document.getElementById(answer).submit();
+         $("#answer").submit();
+         
+       });
+     } postData()
+     </script>
+   
 </body>
 
 </html>

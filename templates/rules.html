@@ -1,4 +1,60 @@
-{% extends 'base.html' %}
-{% block content %}
-<h1>Hello rules</h1>    
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/creative.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css" />
+    <title>{{ page_title }}</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">WELCOME  {{ session['username'] }} </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('login') }}">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('rules') }}">Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('history') }}">Our History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('welcome') }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('logout') }}">logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="text-uppercase">Welcome and thank you be part of our game. Your knowedge will be test in three rounds. Round 1 you will contains 10 questions each correct answer give you 10 points.Second round also test you knowedge in 10 questions in various topics around the world. Round 3 is the harder as required type you answer, it contains only 3 questions, each correct answer double you current scores, also if you answer all questions correct double total scores.   
+                <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/scrollreveal/scrollreveal.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
+</body>
+
+</html>

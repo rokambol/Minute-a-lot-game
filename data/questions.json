@@ -1,117 +1,117 @@
 [
-  {
-    "id": 1,
-    "Question": "How many pairs of ribs would the normal human have?",
-    "Answer": "12"
-  },
-  {
-    "id": 2,
-    "Question": "Who wrote the classic novel 'Les Miserables'?",
-    "Answer": "Victor Hugo"
-  },
-  {
-    "id": 3,
-    "Question": "What was the name of Sherlock Holmes Housekeeper?",
-    "Answer": "Mrs Hudson"
-  },
-  {
-    "id": 4,
-    "Question": "Which actress played the part of Sybil Fawlty in Television's Fawlty Towers?",
-    "Answer": "Prunella Scale"
-  },
-  {
-    "id": 5,
-    "Question": "What was the title of Beethoven's only opera?",
-    "Answer": "Fidelio"
-  },
-  {
-    "id": 6,
-    "Question": "Which river flows through the city of Dublin?",
-    "Answer": "Liffey"
-  },
-  {
-    "id": 7,
-    "Question": "Who appeared with David McCallum in the title role of the TV series 'Sapphire and Steel'?",
-    "Answer": "Joanna Lumley"
-  },
-  {
-    "id": 8,
-    "Question": "Which Irishman won the Tour de France in 1987?",
-    "Answer": "Stephen Roche"
-  },
-  {
-    "id": 9,
-    "Question": "In which European country is Cro-Magnon, famous for the discovery of four Palaeolithic skeletons in 1868?",
-    "Answer": "France"
-  },
-  {
-    "id": 10,
-    "Question": "Which town is the administrative centre for the Open University?",
-    "Answer": "Milton Keynes"
-  },
-  {
-    "id": 11,
-    "Question": "Who was dedicated to killing Moby Dick?",
-    "Answer": "Captain Ahab"
-  },
-  {
-    "id": 12,
-    "Question": "In which city is the Sacre Coeur?",
-    "Answer": "Paris"
-  },
-  {
-    "id": 13,
-    "Question": "What does an entomologist study?",
-    "Answer": "Insects"
-  },
-  {
-    "id": 14,
-    "Question": "From which course did yesterdays Belgian Grand Prix come?",
-    "Answer": "Spa"
-  },
-  {
-    "id": 15,
-    "Question": "Who painted The last Supper?",
-    "Answer": "Leonardo da Vinci"
-  },
-  {
-    "id": 16,
-    "Question": "Which film was the first to feature a laser gun?",
-    "Answer": "Goldfinger"
-  },
-  {
-    "id": 17,
-    "Question": "What was George Washington's wife's first name?",
-    "Answer": "Martha"
-  },
-  {
-    "id": 18,
-    "Question": "What is Xenophobia?",
-    "Answer": "Hatred Of Foreigners"
-  },
-  {
-    "id": 19,
-    "Question": "Which Gilbert And Sullivan Opera is set in Japan?",
-    "Answer": "The Mikado"
-  },
-  {
-    "id": 20,
-    "Question": "How was Achilles killed?",
-    "Answer": "By an arrow in his heel"
-  },
-  {
+{
+  "id": 1,
+  "Question": "How many pairs of ribs would the normal human have?",
+  "answer": "12"
+},
+{
+  "id": 2,
+  "Question": "Who wrote the classic novel 'Les Miserables'?",
+  "answer": "victor hugo"
+},
+{
+  "id": 3,
+  "Question": "What was the name of Sherlock Holmes Housekeeper?",
+  "answer": "mrs hudson"
+},
+{
+  "id": 4,
+  "Question": "Which actress played the part of Sybil Fawlty in Television's Fawlty Towers?",
+  "answer": "prunella scale"
+},
+{
+  "id": 5,
+  "Question": "What was the title of Beethoven's only opera?",
+  "answer": "fidelio"
+},
+{
+  "id": 6,
+  "Question": "Which river flows through the city of Dublin?",
+  "answer": "liffey"
+},
+{
+  "id": 7,
+  "Question": "Who appeared with David McCallum in the title role of the TV series 'Sapphire and Steel'?",
+  "answer": "joanna lumley"
+},
+{
+  "id": 8,
+  "Question": "Which Irishman won the Tour de France in 1987?",
+  "answer": "stephen roche"
+},
+{
+  "id": 9,
+  "Question": "In which European country is Cro-Magnon, famous for the discovery of four Palaeolithic skeletons in 1868?",
+  "answer": "france"
+},
+{
+  "id": 10,
+  "Question": "Which town is the administrative centre for the Open University?",
+  "answer": "milton keynes"
+},
+{
+  "id": 11,
+  "Question": "Who was dedicated to killing Moby Dick?",
+  "answer": "captain ahab"
+},
+{
+  "id": 12,
+  "Question": "In which city is the Sacre Coeur?",
+  "Answer": "paris"
+},
+{
+  "id": 13,
+  "Question": "What does an entomologist study?",
+  "answer": "insects"
+},
+{
+  "id": 14,
+  "Question": "From which course did yesterdays Belgian Grand Prix come?",
+  "answer": "spa"
+},
+{
+  "id": 15,
+  "Question": "Who painted The last Supper?",
+  "answer": "leonardo da vinci"
+},
+{
+  "id": 16,
+  "Question": "Which film was the first to feature a laser gun?",
+  "answer": "goldfinger"
+},
+{
+  "id": 17,
+  "Question": "What was George Washington's wife's first name?",
+  "answer": "martha"
+},
+{
+  "id": 18,
+  "Question": "What is Xenophobia?",
+  "answer": "hatred Of foreigners"
+},
+{
+  "id": 19,
+  "Question": "Which Gilbert And Sullivan Opera is set in Japan?",
+  "answer": "the mikado"
+},
+{
+  "id": 20,
+  "Question": "How was Achilles killed?",
+  "answer": "by an arrow in his heel"
+},
+{
 "id":"21",
 "Question":"Who was the legendary Benedictine monk who invented champagne?",
-"answer":"Dom Perignon"
+"answer":"dom perignon"
 },
 {
 "id":"22",
 "Question":"Name the largest freshwater lake in the world?",
-"answer":"Lake Superior"
+"answer":"lake superior"
 },{
 "id":"23",
 "Question":"Where would you find the Sea of Tranquility?",
-"answer":"The Moon"
+"answer":"the Moon"
 },
 {
 "id":"24",
@@ -121,52 +121,52 @@
 {
 "id":"25",
 "Question":"What item of clothing was named after its Scottish inventor?",
-"answer":"A Mackintosh"
+"answer":"Mackintosh"
 },
 {
 "id":"26",
 "Question":"What kind of weapon is a falchion?",
-"answer":"A sword"
+"answer":"sword"
 },
 {
 "id":"27",
 "Question":"Which word goes before vest, beans and quartet?",
-"answer":"String"
+"answer":"string"
 },
 {
 "id":"28",
 "Question":"What is another word for lexicon?",
-"answer":"Dictionary"
+"answer":"dictionary"
 },
 {
 "id":"29",
 "Question":"Name the seventh planet from the sun.",
-"answer":"Uranus"
+"answer":"uranus"
 },
 {
 "id":"30",
 "Question":"Who invented the rabies vaccination?",
-"answer":"Louis Pasteur"
+"answer":"louis pasteur"
 },
 {
 "id":"31",
 "Question":"Which is the only American state to begin with the letter 'p'?",
-"answer":"Pennsylvania"
+"answer":"pennsylvania"
 },
 {
 "id":"32",
 "Question":"Name the world's biggest island.", 
-"answer":"Greenland"
+"answer":"greenland"
 },
 {
 "id":"33",
 "Question":"What is the world's longest river?",
-"answer":"Amazon"
+"answer":"amazon"
 },
 {
 "id":"34",
 "Question":"Name the world's largest ocean.",
-"answer":"Pacific"
+"answer":"pacific"
 },
 {
 "id":"35",
@@ -176,77 +176,77 @@
 {
 "id":"36",
 "Question":"What is the capital city of Spain?",
-"answer":"Madrid"
+"answer":"madrid"
 },
 {
 "id":"37",
 "Question":"Which country is Prague in?", 
-"answer":"Czech Republic"
+"answer":"czech republic"
 },
 {
 "id":"38",
 "Question":"Which English town was a forerunner of the Parks Movement and the first city in Europe to have a street tram system?", 
-"answer":"Birkenhead"
+"answer":"birkenhead"
 },
 {
 "id":"39",
 "Question":"Name the actor who starred in 142 films including The Quiet Man, The Shootist, The Searchers and Stagecoach.", 
-"answer":"John Wayne"
+"answer":"john Wayne"
 },
 {
 "id":"40",
 "Question":"Name the film noir actress who starred in I Married a Witch, The Glass Key, So Proudly We Hail! and Sullivan's Travels.", 
-"answer":"Veronica Lake"
+"answer":"veronica Lake"
 },
 {
 "id":"41",
 "Question":"What is the oldest film ever made, and when was it made?", 
-"answer":"Roundhay Garden Scene made in 1888"
+"answer":"roundhay garden scene made in 1888"
 },
 {
 "id":"42",
 "Question":"Which actress has won the most Oscars?",
-"answer":"Katharine Hepburn"
+"answer":"katharine Hepburn"
 },
 {
 "id":"43",
 "Question":"Which actress said, 'Fasten your seatbelts. It's going to be a bumpy night,' in All About Eve?",
-"answer":"Bette Davis"
+"answer":"bette Davis"
 },
 {
 "id":"44",
 "Question":"Name the director of the Lord of the Rings trilogy.",
-"answer":"Peter Jackson"
+"answer":"peter Jackson"
 },
 {
 "id":"45",
 "Question":"Who played Neo in The Matrix?", 
-"answer":"Keanu Reeves"
+"answer":"keanu Reeves"
 },
 {
 "id":"46",
 "Question":"Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?", 
-"answer":"Jodie Foster"
+"answer":"jodie Foster"
 },
 {
 "id":"47",
 "Question":"Bray Studios, near Windsor in Berkshire, was home to which famous brand of horror films?", 
-"answer":"Hammer Horror"
+"answer":"hammer Horror"
 },
 {
 "id":"48",
 "Question":"In which film did Humphrey Bogart say, 'We'll always have Paris?'", 
-"answer":"Casablanca"
+"answer":"casablanca"
 },
 {
 "id":"49",
 "Question":"By what name is Lancelot Brown more usually known?", 
-"answer":"Capability Brown"
+"answer":"capability Brown"
 },
 {
 "id":"50",
 "Question":"Name the world famous gardens situated ten miles outside of London, close to the River Thames.", 
-"answer":"Kew Gardens"
+"answer":"kew Gardens"
 },
 {
 "id":"51",
@@ -256,137 +256,137 @@
 {
 "id":"52",
 "Question":"Which garden is considered to be among the Seven Wonders of the Ancient World?",
-"answer":"The Hanging Gardens of Babylon"
+"answer":"the hanging gardens of babylon"
 },
 {
 "id":"53",
 "Question":"What colour is a Welsh poppy?",
-"answer":"Yellow"
+"answer":"yellow"
 },
 {
 "id":"54",
 "Question":"What colour is a Himalayan poppy?", 
-"answer":"Blue"
+"answer":"blue"
 },
 {
 "id":"55",
 "Question":"Give the alternative name for a Mountain Ash tree.", 
-"answer":"Rowan"
+"answer":"rowan"
 },
 {
 "id":"56",
 "Question":"Which kind of bulbs were once exchanged as a form of currency?", 
-"answer":"Tulips"
+"answer":"tulips"
 },
 {
 "id":"57",
 "Question":"By which Latin name was Rosa Gallica previously known?", 
-"answer":"Rosa Mundi"
+"answer":"rosa Mundi"
 },
 {
 "id":"58",
 "Question":"What colour jersey is worn by the winners of each stage of the Tour De France?", 
-"answer":"Yellow"
+"answer":"yellow"
 },
 {
 "id":"59",
 "Question":"Name the only heavyweight boxing champion to finish his career of 49 fights without ever having been defeated?",
-"answer":"Rocky Marciano"
+"answer":"rocky Marciano"
 },
 {
 "id":"60",
 "Question":"Which sport does Constantino Rocca play?",
-"answer":"Golf"
+"answer":"golf"
 },
 {
 "id":"61",
 "Question":"Name the country where you would find the Cresta Run.", 
-"answer":"Switzerland"
+"answer":"switzerland"
 },
 {
 "id":"62",
 "Question":"How many times was the Men's Tennis Singles at Wimbledon won by Bjorn Borg?",
-"answer":"Five"
+"answer":"five"
 },
 {
 "id":"63",
 "Question":"In 2011, which country hosted a Formula 1 race for the first time?",
-"answer":"India"
+"answer":"india"
 },
 {
 "id":"64",
 "Question":"Name the game played on a lawn called a 'crown green'.", 
-"answer":"Bowls"
+"answer":"bowls"
 },
 {
 "id":"65",
 "Question":"Which chess piece can only move diagonally?", 
-"answer":"A bishop"
+"answer":"bishop"
 },
 {
 "id":"66",
 "Question":"Name the only footballer to have played for Liverpool, Everton, Manchester City and Manchester United?", 
-"answer":"Peter Beardsley"
+"answer":"peter Beardsley"
 },
 {
 "id":"67",
 "Question":"In football, who was nicknamed 'The Divine Ponytail'?",
-"answer":"Roberto Baggio"
+"answer":"roberto Baggio"
 },
 {
 "id":"68",
 "Question":"Name the three primary colours.",
-"answer":"Red, yellow and blue"
+"answer":"red, yellow and blue"
 },
 {
 "id":"69",
 "Question":"Name the famous ballet Russian dancer who changed the face of modern ballet.", 
-"answer":"Rudolf Nureyev"
+"answer":"rudolf nureyev"
 },
 {
 "id":"70",
 "Question":"What is the painting 'La Gioconda' more usually known as?",
-"answer":"The Mona Lisa"
+"answer":"the Mona Lisa"
 },
 {
 "id":"71",
 "Question":"What does the term 'piano' mean?", 
-"answer":"To be played softly"
+"answer":"to be played softly"
 },
 {
 "id":"72",
 "Question":"Name the Spanish artist, sculptor and draughtsman famous for co-founding the Cubist movement.", 
-"answer":"Pablo Picasso"
+"answer":"pablo picasso"
 },
 {
 "id":"73",
 "Question":"How many valves does a trumpet have?", 
-"answer":"Three"
+"answer":"three"
 },
 {
 "id":"74",
 "Question":"If you were painting with tempera, what would you be using to bind together colour pigments?", 
-"answer":"Egg yolk"
+"answer":"egg yolk"
 },
 {
 "id":"75",
 "Question":"What is John Leach famous for making?", 
-"answer":"Pottery"
+"answer":"pottery"
 },
 {
 "id":"76",
 "Question":"When was William Shakespeare born?", 
-"answer":"23rd April 1564"
+"answer":"23 April 1564"
 },
 {
 "id":"77",
 "Question":"On what date did the Battle of Culloden take place?",
-"answer":"16th April 1746"
+"answer":"16 April 1746"
 },
 {
 "id":"78",
 "Question":"Who was Henry VIll's first wife?",
-"answer":"Catherine of Aragon"
+"answer":"catherine of Aragon"
 },
 {
 "id":"79",
@@ -401,12 +401,12 @@
 {
 "id":"81",
 "Question":"Who was the architect who designed the Millennium Dome?",
-"answer":"Richard Rogers"
+"answer":"richard Rogers"
 },
 {
 "id":"82",
 "Question":"When did the Eurostar train service between Britain and France start running?",
-"answer":"14th November 1994"
+"answer":"14 November 1994"
 },
 {
 "id":"83",
@@ -416,7 +416,7 @@
 {
 "id":"84",
 "Question":"What is the oldest surviving printed book in the world?", 
-"answer":"The Diamond Sutra, dated at 868 AD"
+"answer":"the Diamond Sutra, dated at 868 AD"
 },
 {
 "id":"85",
@@ -426,76 +426,76 @@
 {
 "id":"86",
 "Question":"Name the author of On Her Majesty's Secret Service, Dr No and Thunderball, among others.", 
-"answer":"Ian Fleming"
+"answer":"ian Fleming"
 },
 {
 "id":"87",
 "Question":"Which Shakespeare play features Shylock?", 
-"answer":"The Merchant of Venice"
+"answer":"the Merchant of Venice"
 },
 {
 "id":"88",
 "Question":"Who wrote the novel Death in Venice, which was later made into a film of the same name?", 
-"answer":"Thomas Mann"
+"answer":"thomas Mann"
 },
 {
 "id":"89",
 "Question":"Who wrote the Vampire Chronicles, which include the novels Armand, Blood and Gold and Interview with the Vampire?",
-"answer":"Anne Rice"
+"answer":"anne Rice"
 },
 {
 "id":"90",
 "Question":"Who wrote the contemporary children's books about mermaids set on the coast of Cornwall?",
-"answer":" Helen Dunmore"
+"answer":"helen Dunmore"
 },
 {
 "id":"91",
 "Question":"Name the BBC series about a shipping line set in Liverpool during the late 1800s.", 
-"answer":"The Onedin Line"
+"answer":"the Onedin Line"
 },
 {
 "id":"92",
 "Question":"Which BBC music programme was broadcast weekly between 1964 and 2006?", 
-"answer":"Top of the Pops"
+"answer":"top of the Pops"
 },
 {
 "id":"93",
 "Question":"Alastair Burnett, Sandy Gall, Reginald Bosanquet, Alastair Stewart, Carol Barnes and Trevor McDonald were all regular presenters of which TV programme?", 
-"answer":"ITV News at Ten"
+"answer":"itv News at Ten"
 },
 {
 "id":"94",
 "Question":"If you had Lafite-Rothschild on your dinner table, what would it be?", 
-"answer":"Wine"
+"answer":"wine"
 },
 {
 "id":"95",
 "Question":"What is sushi traditionally wrapped in?", 
-"answer":"Edible seaweed"
+"answer":"edible seaweed"
 },
 {
 "id":"96",
 "Question":"May Queen, Wisley Crab, Foxwhelps and Lane's Prince Albert are all species of what?", 
-"answer":"Apples"
+"answer":"apples"
 },
 {
 "id":"97",
 "Question":"What is allspice alternatively known as?", 
-"answer":"Pimento"
+"answer":"pimento"
 },
 {
 "id":"98",
 "Question":"What colour is Absynthe?", 
-"answer":"Green"
+"answer":"green"
 },
 {
 "id":"99",
 "Question":"What flavour is Cointreau?", 
-"answer":"Orange"
+"answer":"orange"
 },
 {
 "id":"100",
 "Question":"If you were to cut a hare into pieces, marinate it in wine and juniper berries then stew this slowly in a sealed container, what would this recipe be called?", 
-"answer":"Jugged hare"
+"answer":"jugged hare"
 }
 ]
