@@ -37,7 +37,7 @@ def welcome():
     
 #Help and supporting Functions
 
-# Function help to have 5 sec waiting period before load next round/roun2
+# Function help to have 5 sec waiting period before load next round/round2
 def timer():
     done_counting = threading.Event()
     def count_to_5():
@@ -50,7 +50,7 @@ def timer():
     done_counting.wait(5)
     return redirect(url_for('round2'))
     
-# Function help to have 5 sec waiting period before load next round/roun3
+# Function help to have 5 sec waiting period before load next round/round3
 def timerR3():
     done_counting = threading.Event()
     def count_to_5():
