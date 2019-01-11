@@ -43,7 +43,6 @@ def timer():
     def count_to_5():
         for i in range(1, 5):
             time.sleep(1)
-            print i
         done_counting.set()
     thread = threading.Thread(target=count_to_5)
     thread.start()
@@ -56,7 +55,6 @@ def timerR3():
     def count_to_5():
         for i in range(1, 5):
             time.sleep(1)
-            print i
         done_counting.set()
     thread = threading.Thread(target=count_to_5)
     thread.start()
