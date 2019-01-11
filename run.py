@@ -60,6 +60,13 @@ def timerR3():
     thread.start()
     done_counting.wait(3)
     return redirect(url_for('round3'))
+    
+#route for reset score to 0 if user want to try again
+@app.route('/tryAgain')
+def tryAgain():
+    session['score']=0
+    return redirect(url_for('index'))
+    
    
 #popQuestion() help question not be repeat when they appear on screen
 def popQuestion():
