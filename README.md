@@ -25,9 +25,15 @@ User Stories
 
 5. when 10 question are answer user is redirect to round 3 which have only 3 questions but require user to input it answer if the field, because round 3 is most difficult in the game for each correct answer user double it current score and if user answer all questions from round 3 correctly total user point double again(score an check answer use the same methodology as round 1 and 2).
 
-6.   After they finish round 3 game redirect user to lederboard page where they can see how they do compare with other users. leaderboard page can also be accessed by clicking the View Leaderboard navigation item (see base template). 
+6. After they finish round 3 game redirect user to lederboard page where they can see how they do compare with other users. leaderboard page can also be accessed by clicking the View Leaderboard navigation item (see base template). 
 
-7. When the user clicks the log-out button in the nav bar, their session will be discarded and a Logged Out page will appear to confirm they logged out and to thank them for playing.  
+7. When the user clicks the log-out button in the nav bar, their session will be discarded and a Logged Out page will appear to confirm they logged out and to thank them for playing.
+
+8. After round 1 question finish they are waiting period of 3 seconds before round 2 start
+
+8. After round 2 question finish they are waiting period of 3 second before round 3 start 
+
+
 
 ### Features Left to Implement
 - Due to Heroku's lack of file persistence, usernames and scores aren't currently registered in a permanent way. I would like to change this to a database in future so user details are perpetuated.
@@ -95,12 +101,12 @@ rules of the game and brief history page
 
 ## Deployment
 
-As this project runs on Python, it was hosted on Heroku. To be able to run the code on Heroku, a Procfile was added to tell Heroku it's a Python project (web: python app.py), as were the Config vars for IP (0.0.0.0) and PORT (8080).
+As this project runs on Python, it was hosted on Heroku. To be able to run the code on Heroku, a Procfile was added to tell Heroku it's a Python project (web: python app.py), as were the Config vars for IP (0.0.0.0) and PORT (5000).
 The local editor for whole project [cloud9](https://c9.io)
 
 To run the code locally:
 
-Clone the Github and run it in your own editor.
+Clone the [Github](https://github.com/rokambol/Minute-a-lot-game) and run it in your own editor.
 Install the depencies from the requirements file using the command pip install -r requirements.txt.
 
 Have fun!

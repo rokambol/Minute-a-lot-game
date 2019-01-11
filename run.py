@@ -40,25 +40,25 @@ def welcome():
 # Function help to have 5 sec waiting period before load next round/round2
 def timer():
     done_counting = threading.Event()
-    def count_to_5():
-        for i in range(1, 5):
+    def count_to_3():
+        for i in range(1, 3):
             time.sleep(1)
         done_counting.set()
-    thread = threading.Thread(target=count_to_5)
+    thread = threading.Thread(target=count_to_3)
     thread.start()
-    done_counting.wait(5)
+    done_counting.wait(3)
     return redirect(url_for('round2'))
     
 # Function help to have 5 sec waiting period before load next round/round3
 def timerR3():
     done_counting = threading.Event()
-    def count_to_5():
-        for i in range(1, 5):
+    def count_to_3():
+        for i in range(1, 3):
             time.sleep(1)
         done_counting.set()
-    thread = threading.Thread(target=count_to_5)
+    thread = threading.Thread(target=count_to_3)
     thread.start()
-    done_counting.wait(5)
+    done_counting.wait(3)
     return redirect(url_for('round3'))
    
 #popQuestion() help question not be repeat when they appear on screen
