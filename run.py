@@ -65,6 +65,7 @@ def timerR3():
 @app.route('/tryAgain')
 def tryAgain():
     session['score']=0
+    session['count']=0
     return redirect(url_for('index'))
     
    

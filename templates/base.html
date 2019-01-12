@@ -39,21 +39,23 @@
         </div>
       </div>
     </nav>
+   
     <header class="masthead text-center text-white d-flex">
+        <h2 class="text-white">Round 1</h2>
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2 class="text-uppercase">
-              
-            
          {% for qw in qw  %}
           {% if loop.index0 <=0 %}
  
                 <h2 class="primary">{{ qw.question }}</h2> 
             </h2>
-            
             <hr>
           </div>
+          
+<!--Display answer options and submit button-->
+
           <div class="col-lg-8 mx-auto">
           
              <form name="myForm" id = "form" action="" method="post" onsubmit="">
@@ -63,20 +65,12 @@
               <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer3" value="{{ qw.C }}" />
               <input type="hidden" name="count" id="hiddenVal"  value= {{ count }}  />
             </form>
-            
-          {% with messages = get_flashed_messages() %}
-          {% if messages %}
-          {% for message in messages %}
-          <h2 class="primary">{{ message }}</h2>
-          {% endfor %}
-          {% endif %}
-          {% endwith %}
           </div>
         </div>
       <a class="btn btn-primary my-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" href="{{ url_for('index') }}">NEXT</a>
        
        </div>
-       <a class="btn btn-primary my-5 btn-xl js-scroll-trigger"> your current score are {{ session['score'] }}</a>
+       <a class="btn my-5 btn-xl js-scroll-trigger"> your current score: {{ session['score'] }}</a>
          </header> 
              
              
@@ -97,7 +91,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
-    <script type="text/javascript" src="">
+    
+<!--My custom script func postData send hidden field in back end second func reset question after 20 sec of inactivity prevent cheating-->
+
+    <script type="text/javascript">
+    
      function postData(answer) {
   $('#answer1'|| '#answer2' || '#answer3').on('click', function(){
          document.getElementById(answer).submit();
@@ -106,17 +104,12 @@
        });
      }
      
-
-  $('#answer1'|| '#answer2' || '#answer3').click(function () {
-   var counter = parseInt($("#hiddenVal").val());
-       counter++;
-  $("#hiddenVal").val(counter);
-  if ($("#hiddenVal").val(counter)==10) {
-    window.location="/round2";
-  }
-});
-     
-   
+     (function(){
+   setTimeout(function(){
+     window.location="/index";
+   },20000); /* 1000 = 1 second*/
+})();
+ 
    </script>
    
 </body>

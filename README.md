@@ -99,6 +99,11 @@ rules of the game and brief history page
    - As a player, I would like to see where I rank on the leaderboard once I finish the game.
     On the answer page of the last question in round 3, you will be redirects to leaderboard as well as display your score.
 
+  - In case user is unhappy with result and want to try again after leaderboard table there is button "Try Again" Which reset user score to 0 and redirect user to round 1.
+  
+  - In each round in case of unactivity on the page app reload different question after 20 sec , that prevent user to check in web for right answer and prevent cheating.
+  
+
 ## Deployment
 
 As this project runs on Python, it was hosted on Heroku. To be able to run the code on Heroku, a Procfile was added to tell Heroku it's a Python project (web: python app.py), as were the Config vars for IP (0.0.0.0) and PORT (5000).

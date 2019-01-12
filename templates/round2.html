@@ -34,18 +34,21 @@
       </div>
     </nav>
     <header class="masthead text-center text-white d-flex">
+       <h2 class="text-white bg-none">Round 2</h2>
       <div class="container my-auto">
         <div class="row">
+          
+<!--Display random question on the page-->
+
           <div class="col-lg-10 mx-auto">
             <h2 class="text-uppercase">
-              
-            
          {% for qa in qa  %}
               {% if loop.index0 <=0 %}
                 <h2 class="primary">{{ qa.question }}</h2> 
             </h2>
-            
             <hr>
+            
+<!--Display answer options and submit button-->
           </div>
           <div class="col-lg-8 mx-auto">
           
@@ -64,7 +67,7 @@
         </div>
       <a class="btn btn-primary my-5 btn-xl js-scroll-trigger" href="{{ url_for('round2') }}">NEXT</a>
       </div>
-       <a class="btn btn-primary my-5 btn-xl js-scroll-trigger"> your current score are {{ session['score'] }}</a>
+       <a class="btn my-5 btn-xl js-scroll-trigger"> your current score: {{ session['score'] }}</a>
     </header>
 
     <!-- Bootstrap core JavaScript -->
@@ -79,20 +82,20 @@
 
     <!-- Custom scripts for this template -->
     <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
-    <script type="text/javascript" src="">
+    
+<!--My custom script func postData send hidden field in back end second func reset question after 20 sec of inactivity prevent cheating-->
+
+    <script type="text/javascript">
      function postData(answer) {
   $('#answer1'|| '#answer2' || '#answer3' || '#answer4').on('click', function(){
          document.getElementById(answer).submit()
        })
      }
-   
-   </script>
-   <script type="text/javascript">
 
 (function(){
    setTimeout(function(){
-     window.location="/round3";
-   },60000); /* 1000 = 1 second*/
+     window.location="/round2";
+   },20000); /* 1000 = 1 second*/
 })();
 </script>
 </body>
