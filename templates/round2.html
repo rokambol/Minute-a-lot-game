@@ -42,9 +42,9 @@
 
           <div class="col-lg-10 mx-auto">
             <h2 class="text-uppercase">
-         {% for qa in qa  %}
+         {% for q in qa  %}
               {% if loop.index0 <=0 %}
-                <h2 class="primary">{{ qa.question }}</h2> 
+                <h2 class="primary">{{ q.question }}</h2> 
             </h2>
             <hr>
             
@@ -53,11 +53,11 @@
           <div class="col-lg-8 mx-auto">
           
              <form name="myForm" id = "form" action="" method="post" onsubmit="">
-              <input class="d-none" type="hidden Submit" name="answer" id="answer" value="{{ qa.answer }}" />           
-              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer1" value="{{ qa.A }}" />  
-              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer2" value="{{ qa.B }}" />  
-              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer3" value="{{ qa.C }}" />
-              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer4" value="{{ qa.D }}" />
+              <input class="d-none" type="hidden Submit" name="answer" id="answer" value="{{ q.answer }}" />           
+              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer1" value="{{ q.A }}" />  
+              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer2" value="{{ q.B }}" />  
+              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer3" value="{{ q.C }}" />
+              <input class="btn btn-primary mt-3 mx-5 btn-xl js-scroll-trigger" type="Submit" name="player_answer" id="answer4" value="{{ q.D }}" />
             </form>
             
             {% endif %}

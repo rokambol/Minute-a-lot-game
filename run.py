@@ -22,6 +22,8 @@ class LoginForm(FlaskForm):
 with open("data/questionRound1.json", "r") as question:
     riddles = json.load(question)
     
+   
+    
 #load question list for round 2    
 with open("data/questionRound2.json", "r") as quiz:
     quiz = json.load(quiz)
@@ -80,8 +82,7 @@ def popQuestion():
 @app.route('/index', methods=["POST","GET"])
 def index():
     qw = riddles
-#shuffle question list
-    random.shuffle(qw)
+    random.shuffle(qw) #shuffle question list
     username = request.form.get('username', '')
     score = session['score']
     if request.method == 'POST':

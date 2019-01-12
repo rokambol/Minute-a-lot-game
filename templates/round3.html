@@ -35,16 +35,16 @@
       </div>
     </nav>
     <header class="masthead text-center text-white d-flex">
-      <h2 class="text-white">Round 3</h2>
+      <h2 class="text-white bg-none">Round 3</h2>
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             
 <!--Display random question on the page-->
             <h2 class="text-uppercase">
-         {% for asd in asd  %}
+         {% for a in asd  %}
               {% if loop.index0 <=0 %}
-                <h2 class="primary">{{ asd.Question }}</h2> 
+                <h2 class="primary">{{ a.Question }}</h2> 
             </h2>
             
             <hr>
@@ -55,10 +55,12 @@
               
 <form method="post">
   <div class="form-group">
-    <input class="d-none" type="hidden Submit" name="answer" id="answer" value="{{ asd.answer }}" />
+    <input class="d-none" type="hidden Submit" name="answer" id="answer" value="{{ a.answer }}" />
     {% filter lower %}
     <label for="answer">YOUR ANSWER:</label>
-    <input type="text" class="form-control" id="answer1" name="player_answer" aria-describedby="text" placeholder="Enter your answer here / lower case only, please">
+    <input type="text" class="form-control" id="answer1" name="player_answer" aria-describedby="text" placeholder="Enter your answer here">
+    <small class="danger form-text text-muted">
+  Your answer must be lowercase only, contain letters and numbers, and must not contain special characters, or emoji.
   </div>
       <button type="submit"  name="player_answer" class="btn btn-primary">Submit</button>
 </form>     
