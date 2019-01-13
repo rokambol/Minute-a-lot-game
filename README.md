@@ -1,7 +1,7 @@
 # TEST-YOUR-KNOWLEDGE
 
 Quiz Game test user knowledge in three round and for every correct answer user collect points 
-[press here to start the game](http://test-your-knowledge-quiz-game.herokuapp.com/)
+[Test-your-knowledge](http://test-your-knowledge-quiz-game.herokuapp.com/)
 
 ## UX
  
