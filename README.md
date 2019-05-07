@@ -107,7 +107,7 @@ rules of the game and brief history page
 
 ## Deployment
 
-As this project runs on Python, it was hosted on Heroku. To be able to run the code on Heroku, a Procfile was added to tell Heroku it's a Python project (web: python app.py), as were the Config vars for IP (0.0.0.0) and PORT (5000).
+As this project runs on Python, it was hosted on Heroku. Hosted platform for the project deployment is https://test-your-knowledge-quiz-game.herokuapp.com/ To be able to run the code on Heroku, a Procfile was added to tell Heroku it's a Python project (web: python app.py), as were the Config vars for IP (0.0.0.0) and PORT (5000).
 The local editor for whole project [cloud9](https://c9.io)
 
 To run the code locally:
